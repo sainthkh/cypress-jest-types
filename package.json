@@ -1,0 +1,34 @@
+{
+  "name": "cypress-jest-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sainthkh/cypress-jest-types.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sainthkh/cypress-jest-types/issues"
+  },
+  "homepage": "https://github.com/sainthkh/cypress-jest-types#readme",
+  "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "cypress": "1.2.0",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@bahmutov/add-typescript-to-cypress": "2.1.2",
+    "@types/jest": "24.9.1",
+    "jest": "24.9.0",
+    "ts-jest": "24.3.0",
+    "webpack": "4.42.1"
+  }
+}
